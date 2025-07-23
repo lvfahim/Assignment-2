@@ -332,7 +332,12 @@ margin-bottom: 8px;
         height: 177px;
         font-size: 1.2rem;
     }
-    .join-section{
+     .join-section {
+    height: auto;
+    padding: 30px 15px;
+  }
+
+  .join-section{
         margin: 0;
         padding: 0;
         width: 100%;
