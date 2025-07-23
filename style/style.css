@@ -19,7 +19,7 @@
 }
 main > section{
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 120px auto;
 }
 /* header section start */
 .header{
@@ -78,6 +78,54 @@ main > section{
 .banar-img{
     align-items: center;
 }
+/* <!-- our plaet start  --> */
+.plant-contain h1{
+   font-size: 4rem;
+    font-weight: bold; 
+    text-align: center;
+}
+.plant-contain p{
+  font-size: 1.5rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);  
+    text-align: center;
+}
+.card{
+    max-width: 100%;
+    max-height: 500px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.card-tital{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 27px;
+}
+.card-prize{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 17px;
+}
+.card-h2{
+    margin-top: 27px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    padding: 16px 80px;
+    background-color: #E95A08;
+}
+.margin{
+    margin-top: 49px;
+}
+.card-img{
+    width: 100%;
+}
+.card-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
 @media screen and (max-width:576px) {
     *{
         box-sizing: border-box;
@@ -99,4 +147,21 @@ main > section{
         width: 100%;
         margin: 0;
     }
+    .card-section{
+        grid-template-columns: repeat(2 ,1fr);
+        gap: 0px;
+    }
+    .card{
+        width: 100%;
+        margin-bottom: 30px;
+        margin-right: 10px;
+    }
+    .card-h2{
+        padding: 10px;
+    }
+    .card-img{
+        width: 95%;
+    }
+
+    
 }
